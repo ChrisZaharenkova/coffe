@@ -27,6 +27,7 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit; }
+button{background-color: transparent;}
 
 html,
 body {
@@ -918,7 +919,7 @@ text-decoration: none;
 }
 @media(max-width: 768px){
   .fullscreen__body{
-    padding: 300px 0 300px 0;
+    padding: 160px 0 160px 0;
   }
   .fullscreen__logo{
     margin-bottom: 15px;
@@ -979,6 +980,9 @@ text-decoration: none;
   .benefits__image{
     width: 230%;
     height: 86%;
+  }
+  .benefits__item:not(:last-child) {
+    margin-bottom: 20px;
   }
 }
 /*---Menu ---News---Phrase-----------------------------------*/
@@ -1104,7 +1108,7 @@ text-decoration: none;
 }
 @media(max-width:767px){
   .page__food {
-  padding: 100px ;
+  padding: 100px 100px 0 ;
 }
   .body-food{
     gap: 15px;
@@ -1117,7 +1121,7 @@ text-decoration: none;
 }
 @media(max-width:540px){
   .page__food {
-  padding: 80px ;
+  padding: 80px 0 80px 0 ;
 }
   .body-food{
     gap: 15px;
