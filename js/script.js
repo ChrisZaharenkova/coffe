@@ -17,3 +17,7 @@ $("a[href^='#']").on("click", function () {
 
     return false;
 });
+$('.body-menu__link__food,.body-menu__link__drink').click(function(){
+    $('.body-menu__link__food,.body-menu__link__drink').toggleClass('body-menu__link__active');
+    $('.body-menu__items__food,.body-menu__items__drink').toggleClass('body-menu__items__active');
+});
