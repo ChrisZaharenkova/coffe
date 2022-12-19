@@ -27,7 +27,7 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit; }
-button{background-color: transparent;}
+button{background-color: transparent;cursor: pointer;}
 
 html,
 body {
