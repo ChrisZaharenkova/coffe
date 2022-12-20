@@ -229,15 +229,13 @@ body {
   position: relative;
   z-index: 2;
   flex: 1 1 auto;
-  
-}
-.fullscreen__container{
-  max-width: 962px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
+
 
 .fullscreen__logo {
   margin-bottom: 24px;
