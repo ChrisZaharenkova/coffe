@@ -218,7 +218,7 @@ body {
 /*---Fullscreen---------------------------------------------------------------------*/
 .fullscreen {
 
-  min-height: 100vh;
+ 
   position: relative;
   display: flex;
   flex-direction: column;
